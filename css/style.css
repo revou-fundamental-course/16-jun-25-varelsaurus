@@ -1,0 +1,24 @@
+*,  html{
+    margin: 0;
+    padding: 0;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between; /* Distributes space between logo and navbar items */
+    border-bottom: solid 0.5px; /* Added thickness for clarity */
+    padding: 5px 50px 5px 20px;
+    align-items: center; /* Aligns logo and navbar vertically */
+}
+
+.ul-navbar {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+}
+.li-navbar {
+    padding: 5px 20px 5px 20px;
+    border-style: solid;
+    border-width: 0.2px;
+}
